@@ -6,12 +6,10 @@
   >
 </p>
 
-<p align="center">
-  <strong>Information security systems engineer building backend and network-facing software in Rust.</strong>
-</p>
+<h3 align="center">Information security systems engineer building backend and infrastructure software</h3>
 
 <p align="center">
-  Protocols, sockets and Linux primitives — with reproducible systems built around Nix.
+  Rust services, network protocols, Terraform integrations and reproducible NixOS deployments.
 </p>
 
 <p align="center">
@@ -30,14 +28,18 @@ Async services with <strong>Tokio</strong>, <strong>Axum</strong>, <strong>Tower
 
 Protocol-level integrations and services built directly on <strong>TCP/IP</strong>, <strong>Unix domain sockets</strong> and Linux primitives.
 
+<h3>🏗️ Virtualization & infrastructure as code</h3>
+
+Terraform integrations for virtual infrastructure, including a full SpaceVM provider written in <strong>Go</strong> with the <strong>Terraform Plugin Framework</strong>.
+
 <h3>❄️ Reproducible infrastructure</h3>
 
-NixOS systems, flakes and CI/CD for servers and distributed agents, with <strong>Caddy</strong>, <strong>Nginx</strong> and <strong>Docker</strong> at the edge.
+NixOS systems, flakes and CI/CD for servers, distributed agents and Raspberry Pi systems, with <strong>Caddy</strong>, <strong>Nginx</strong> and <strong>Docker</strong> at the edge.
 
 <h2>🧰 Toolbox</h2>
 
 <p align="center">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=rust,tokiors,grpc,ratatui,postgresql,nixos,linux,caddy,nginx,docker,githubactions&theme=dark&perline=11&titles=true" alt="Rust, Tokio, gRPC, Ratatui, PostgreSQL, NixOS, Linux, Caddy, Nginx, Docker and GitHub Actions">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=rust,tokiors,grpc,ratatui,postgresql,golang,terraform,nixos,linux,caddy,nginx,docker,githubactions&theme=dark&perline=13&titles=true" alt="Rust, Tokio, gRPC, Ratatui, PostgreSQL, Go, Terraform, NixOS, Linux, Caddy, Nginx, Docker and GitHub Actions">
 </p>
 
 <p align="center">
@@ -48,6 +50,16 @@ NixOS systems, flakes and CI/CD for servers and distributed agents, with <strong
 </p>
 
 <h2>🚀 Selected work</h2>
+
+<h3>Terraform provider for SpaceVM <sub>private</sub></h3>
+
+Designed and implemented a provider with <strong>7 resources</strong> and <strong>11 data sources</strong>. It manages VM lifecycle, cloning, NICs, disks, image workflows and PCI/VFIO passthrough, with import, state reconciliation and drift correction.
+
+<p>
+  <img src="https://img.shields.io/badge/Terraform_Provider-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform provider">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/source-private-6B7280?style=flat-square&logo=git&logoColor=white" alt="Private source code">
+</p>
 
 <h3><a href="https://github.com/Teamofeyy/fast-webp">fast-webp</a></h3>
 
@@ -83,3 +95,4 @@ I am also going deeper into Linux internals: system calls, virtual memory, sched
 <p align="center">
   <sub>Explicit systems. Reproducible infrastructure. No black boxes.</sub>
 </p>
+
